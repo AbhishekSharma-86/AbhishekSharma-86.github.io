@@ -1,10 +1,13 @@
 /* header */
+body{
+    margin: 0px;
+}
 .header-item{
     color: aliceblue;
     padding: 0%;
     background-image: url(img/header-background.jpg);
-    height: 16rem;
-    width: 100%;
+    height: 45vh;
+    width: 100vw;
     padding: 0rem;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,7 +19,7 @@
 }
 .nav-list li{
     display: inline;
-    margin: 5%;
+    margin: 2%;
 }
 .nav-list li a{
     font-size: 138%;
