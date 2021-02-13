@@ -1,50 +1,33 @@
-/* header */
+*{
+    color: rgb(46, 42, 42);
+    font-style: normal;
+}
 body{
-    margin: 0px;
+    background-color: rgb(166, 162, 224);
 }
-.header-item{
-    color: aliceblue;
-    padding: 0%;
-    background-image: url(img/header-background.jpg);
-    height: 45vh;
-    width: 100vw;
-    padding: 0rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+a{
+    margin-left: 21%;
+    padding: 1.5%;
+     
 }
-.text-centre{
+/* a:hover{
+    background-color: rgb(114, 173, 212);
+} */
+h1{
     text-align: center;
 }
-.nav-list li{
-    display: inline;
-    margin: 2%;
-}
-.nav-list li a{
-    font-size: 138%;
-    color: aliceblue;
-    text-decoration: none;
-
-}
-.nav-list li a:hover{
-    border-bottom: 2px aliceblue solid;
-}
-.title{
-    margin-top: 3rem;
-    font-size: 3rem;
-}
-.social-links a i{
-    color: aliceblue;
-    margin: -2% 5% 0% 5%;
+/* .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  } */
+.title-img{
+    margin-left: 40%;
     border-radius: 50%;
 }
-/* .social-links a i:hover{
-    border: aliceblue 2% solid;
-} */
- /* About Me */
- .title-img{
-    border-radius: 50%;
-    margin: -3% 46% 0%;
-    border: 3px white solid;
- }
+.info{
+    border-top: 2px rgb(43, 22, 22) solid;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
